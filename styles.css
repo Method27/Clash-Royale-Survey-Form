@@ -1,0 +1,75 @@
+body {
+  background-image: linear-gradient(115deg, rgba(70, 93, 184, 0.8), rgba(103, 131, 245, 0.7)),url(https://c4.wallpaperflare.com/wallpaper/415/210/511/clash-royale-supercell-clash-of-clans-prince-wallpaper-preview.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: arial;
+}
+
+h1, h3, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+h1, h3 {
+  margin: 10px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2em 0;
+  border-bottom: 3px solid cyan;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+input, textarea, select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  border: 3px solid #e9f238;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  min-width: 300px;
+}
+
+.champion-badge {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 100%;
+  max-height: 100px;
+  min-height: 70px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}

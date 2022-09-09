@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<h1 id="title">Clash Royale</h1>
+<img class="champion-badge" src="https://i.imgur.com/yRTWEQ8.png" alt="Champion League badge from Clash Royale" title="source: imgur.com" >
+<h3>Survey form</h3>
+<p><em>Thank you for taking the time to answer this survey!</em></p>
+<p id="description">In this survey we will be asking you a few questions on you view of everything Clash royale!</p>
+
+<form id="survey-form">
+  <fieldset>
+  <label id="name-label" for="name">In-game name: <input id="name" type="text" name="name" placeholder="Barbarian" required></label>
+  <label for="tag">In-game Tag: <input id="tag" type="text" name="tag" placeholder="#GG829JGY" required></label>
+  <label id="number-label" for="number">Age: <input id="number" type="number" min="13" max="99" placeholder="21"></label>
+  <label id="email-label" for="email">Email: <input id="email" type="email" name="email" placeholder="megakinght@gmail.com" required></label>
+</fieldset>
+<fieldset>
+  <label>What OS do you use?</label>
+  <label for="android"><input id="android" type="radio" name="os" value="android" class="inline"> Android</label>
+  <label for="ios"><input id="ios" type="radio" name="os" value="ios" class="inline"> IOS</label>
+</fieldset>
+<fieldset>
+<label for="year-joined">When did you start playing Clash Royale?
+<select id="dropdown" name="year-joined">
+  <option value="">(select the year)</option>
+  <option value="2016">2016</option>
+  <option value="2017">2017</option>
+  <option value="2018">2018</option>
+  <option value="2019">2019</option>
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+  <option value="2022">2022</option>
+</select>
+</label>
+<label>What is your king Tower level?
+  <input id="king-tower" type="number" value="tower-level" name="tower-level" min="1" max="14">
+</label>
+<label>Are you in a clan?</label>
+  <label for="clan-yes"><input id="clan-yes" type="checkbox" class="inline" name="clan" required> Yes
+</label>
+<label for="clan-no"><input id="clan-no" type="checkbox" class="inline" name="clan" required> No
+</label>
+</fieldset>
+<fieldset>
+<label>Which hero do you think needs a nerf?</label>
+<label for="archer-queen"><input id="archer-queen" type="radio" name="hero" class="inline"> Archer Queen</label>
+<label for="skeleton-king"><input id="skeleton-king" type="radio" name="hero" class="inline"> Skeleton King</label>
+<label for="golden-knight"><input id="golden-knight" type="radio" name="hero" class="inline"> Golden Knight</label>
+<label for="mighty-miner"><input id="mighty-miner" type="radio" name="hero" class="inline"> Mighty Miner</label>
+</fieldset>
+<fieldset>
+<label>Which hero do you think needs a buff?</label>
+<label for="archer-queen"><input id="archer-queen" type="radio" name="hero" class="inline"> Archer Queen</label>
+<label for="skeleton-king"><input id="skeleton-king" type="radio" name="hero" class="inline"> Skeleton King</label>
+<label for="golden-knight"><input id="golden-knight" type="radio" name="hero" class="inline"> Golden Knight</label>
+<label for="mighty-miner"><input id="mighty-miner" type="radio" name="hero" class="inline"> Mighty Miner</label>
+</fieldset>
+<fieldset>
+  <label for="card-nerf">What card do you think needs a nerf?
+    <input id="card-nerf" type="text" name="card-nerf" placeholder="Mega Knight">
+    <label for="card-buff">What card do you think needs a buff?
+    <input id="card-buff" type="text" name="card-buff" placeholder="Fireball">
+  </label>
+  </label>
+</fieldset>
+<fieldset>
+  <label>What changes do you want to see In Clash Royale?</label>
+  <label>Comments:
+    <textarea></textarea>
+  </label>
+</fieldset>
+<fieldset>
+  <label>
+    <input type="checkbox" value="terms-of-service" class="inline" required>I agree to the <a href="https://supercell.com/en/terms-of-service/" target="_blank">Terms of Service</a>
+  </label>
+</fieldset>
+<input type="submit" value="Submit">
+</form>
+  </body>
+</html>
